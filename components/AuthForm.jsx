@@ -64,12 +64,7 @@ const AuthForm = () => {
           token: data.token,
         })
       );
-
-      localStorage.setItem("userId", data.userId);
-      localStorage.setItem("username", data.username);
-      localStorage.setItem("email", data.email);
-      localStorage.setItem("token", data.token);
-
+      
       setEmail("");
       setPassword("");
       setUsername("");
