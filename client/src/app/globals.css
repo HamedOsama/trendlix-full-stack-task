@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.sidebar .sidebarWords span {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-left: 15px;
+font-weight: bold;
+
+}
+.sidebar :hover .sidebarWords span {
+animation-delay: .5s;
+transition: all  1s ;
+
+  }
+ 
